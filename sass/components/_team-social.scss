@@ -1,0 +1,29 @@
+.social-media {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .social-media__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    color: #afb1b8;
+    border-radius: 50%;
+    transition: color 250ms $time-function,
+      background-color 250ms $time-function,
+      border-radius 250ms $time-function;
+
+      &:hover{
+        color: $white-color;
+        background-color: $accent-color;
+        border-radius: 50%;
+      }
+  }
+  .social-media__icon {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+  }
+  

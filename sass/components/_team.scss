@@ -1,0 +1,62 @@
+.team {
+    background-color: #f5f4fa;
+  
+    text-align: center;
+  }
+  .team__title {
+    color: $title-text-color;
+    font-family: Roboto, sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-align: center;
+  
+    margin-bottom: 50px;
+  }
+  
+  .team__list {
+    display: flex;
+  }
+  
+  .team__item {
+    margin-right: 30px;
+    background-color: #fff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+
+    &:last-child{
+        margin-right: 0;
+        flex-basis: 270px;
+    }
+  }
+  
+  
+  
+  .team__image{
+    display: block;
+  }
+  
+  .team__content {
+    padding: 30px 32px;
+  }
+  
+  .team__member {
+    color: $title-text-color;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    margin-bottom: 10px;
+  }
+  .team__position {
+    color: $main-text-color;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    margin-bottom: 16px;
+  }
+  

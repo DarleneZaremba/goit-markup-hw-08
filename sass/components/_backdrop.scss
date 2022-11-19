@@ -1,0 +1,72 @@
+.backdrop {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.2);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    transition: opacity 500ms $time-function;
+  }
+  
+  .backdrop.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+  }
+  
+  .modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 528px;
+    height: 581px;
+    background-color: $white-color;
+  
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+  }
+  
+  .modal__btn {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background-color: var(--white-color);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+
+  }
+  
+  .modal__close-icon{
+  transition: fill 250ms $time-function ;
+  
+  .modal__btn:focus, .modal__btn:hover &{
+
+    fill: $accent-color;
+  }
+
+}
+
+
+  
+  .modal__title{
+    padding-right: 40px;
+  padding-left: 40px;
+  padding-top: 40px;
+  margin-bottom: 12px;
+  
+  font-weight: 700;
+  font-size: 20px;
+  line-height: calc(23 / 20);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: $title-text-color;
+  
+  }
