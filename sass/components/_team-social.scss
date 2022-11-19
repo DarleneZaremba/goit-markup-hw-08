@@ -1,6 +1,11 @@
 .social-media {
     display: flex;
-    justify-content: space-evenly;
+    // justify-content: space-evenly;
+    @media screen and (max-width:1199px) {
+      justify-content: center;
+    
+      
+    }
   }
   
   .social-media__link {
@@ -20,10 +25,18 @@
         background-color: $accent-color;
         border-radius: 50%;
       }
+
+      @media screen and (max-width:480px) {
+        margin-right: 10px;
+      }
   }
+
+
   .social-media__icon {
     width: 20px;
     height: 20px;
     fill: currentColor;
+
+  
   }
   

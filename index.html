@@ -19,7 +19,7 @@
 <!-- HEADER -->
 
 
-    <header class="page-header">
+    <!-- <header class="page-header">
       <div class="container">
         <div class="page-header__wrap">
           <a href="" class="logo link">
@@ -63,7 +63,7 @@
       </div>
      
       
-    </header>
+    </header> -->
 
 
 <!-- HERO SECTION -->
@@ -71,7 +71,7 @@
 
     <main>
 
-      <section class="hero">
+      <!-- <section class="hero">
         <div class="hero__flex container">
           <h1 class="hero__title">Ефективні рішення для <br> вашого бізнесу</h1>
 
@@ -80,7 +80,7 @@
           
        
         
-      </section>
+      </section> -->
 
 
 <!-- FEATURES -->
@@ -152,7 +152,7 @@
 
       <!-- WORK -->
 
-      <section class="work-specification  section">
+      <!-- <section class="work-specification  section">
         <div class="container">
           <h2 class="work-specification__title">Чим ми займаємося</h2>
 
@@ -193,7 +193,7 @@
           </li>
         </ul>
         </div>
-      </section>
+      </section> -->
 
 
 
@@ -204,11 +204,18 @@
 
         <ul class=" team__list list">
           <li class="team__item">
-            <img class="team__image"
-              src="./images/images-studio/img1.jpg"
+            <picture>
+<source srcset="./images/images-studio/igor/imgdesktop.jpg 1x, ./images/images-studio/igor/imgdesktop@2x.jpg 2x" media="(min-width:1200px)">
+<source srcset="./images/images-studio/igor/igor-tablet.jpg 1x, ./images/images-studio/igor/igot-tablet@2x.jpg 2x" media="(min-width:768px)">
+<source srcset="./images/images-studio/igor/igor-mobile.jpg 1x, ./images/images-studio/igor/igor-mobile@2x.jpg 2x" media="(max-width:480px)">
+
+              <img class="team__image"
+              src="./images/images-studio/igor/imgdesktop.jpg"
               alt="Фото члена команди"
-              width="270"
+             
             />
+            </picture>
+           
 <div class="team__content">
   <h3 class="team__member">Ігор Дем'яненко</h3>
 
@@ -240,12 +247,17 @@
           </li>
 
           <li class="team__item">
-            <img
-            class="team__image"
-              src="./images/images-studio/img2.jpg"
-              alt="Фото члена команди"
-              width="270"
-            />
+            <picture>
+              <source srcset="./images/images-studio/olga/imgdesktop.jpg 1x, ./images/images-studio/olga/imgdesktop@2x.jpg 2x" media="(min-width:1200px)">
+              <source srcset="./images/images-studio/olga/imgtablet.jpg 1x, ./images/images-studio/olga/imgtablet@2x.jpg 2x" media="(min-width:768px)">
+              <source srcset="./images/images-studio/olga/imgmobile.jpg 1x, ./images/images-studio/olga/imgmobile@2x.jpg 2x" media="(max-width:480px)">
+              
+                            <img class="team__image"
+                            src="./images/images-studio/olga/imgdesktop.jpg"
+                            alt="Фото члена команди"
+                           
+                          />
+                          </picture>
 <div class="team__content">
   <h3 class="team__member">Ольга Рєпіна</h3>
 
@@ -281,12 +293,17 @@
           </li>
 
           <li class="team__item">
-            <img
-            class="team__image"
-              src="./images/images-studio/img3.jpg"
-              alt="Фото члена команди"
-              width="270"
-            />
+            <picture>
+              <source srcset="./images/images-studio/mykola/imgdesktop.jpg 1x, ./images/images-studio/mykola/img@2xdesktop.jpg 2x" media="(min-width:1200px)">
+              <source srcset="./images/images-studio/mykola/imgtablet.jpg 1x, ./images/images-studio/mykola/imgtablet@2x.jpg 2x" media="(min-width:768px)">
+              <source srcset="./images/images-studio/mykola/imgmobile.jpg 1x, ./images/images-studio/mykola/imgmobile@2x.jpg 2x" media="(max-width:480px)">
+              
+                            <img class="team__image"
+                            src="./images/images-studio/mykola/imgdesktop.jpg"
+                            alt="Фото члена команди"
+                           
+                          />
+                          </picture>
 <div class="team__content">
   <h3 class="team__member">Микола Тарасов</h3>
 
@@ -323,12 +340,17 @@
           </li>
 
           <li class="team__item">
-            <img
-            class="team__image"
-              src="./images/images-studio/img4.jpg"
-              alt="Фото члена команди"
-              width="270"
-            />
+            <picture>
+              <source srcset="./images/images-studio/myhailo/imgdesktop.jpg 1x, ./images/images-studio/myhailo/imgdesktop@2x.jpg 2x" media="(min-width:1200px)">
+              <source srcset="./images/images-studio/myhailo/imgtablet.jpg 1x, ./images/images-studio/myhailo/imgtablet@2x.jpg 2x" media="(min-width:768px)">
+              <source srcset="./images/images-studio/myhailo/imgmobile.jpg 1x, ./images/images-studio/myhailo/imgmobile@2x.jpg 2x" media="(max-width:480px)">
+              
+                            <img class="team__image"
+                            src="./images/images-studio/myhailo/imgdesktop.jpg"
+                            alt="Фото члена команди"
+                           
+                          />
+                          </picture>
 <div class="team__content">
   <h3 class="team__member">Михайло Єрмаков</h3>
 
@@ -431,62 +453,66 @@
     <footer class="footer ">
       <div class="footer__flex container ">
 
-        <div class="footer__adress-wrap">
-          <a href="" class="logo logo--theme-dark link">
-            <span class="logo__element ">Web</span>Studio</a>
-    
-          <address class="address">
-            <ul class="address__list list">
-              <li class="address__item">
-                <a href="" class="address__link link">
-                  м. Київ, пр-т Лесі Українки, 26</a
-                >
-              </li >
-              <li class="address__item">
-                <a href="mailto:info@devstudio.com" class="address__link address__link--active link"
-                  >info@devstudio.com</a
-                >
-              </li>
-              <li>
-                <a href="tel:380961111111" class="address__link address__link--active link"
-                  >+38 096 111 11 11</a
-                >
-              </li>
-            </ul>
-          </address>
-        </div>
+<div class="footer__tablet-position">
+  <div class="footer__adress-wrap">
+    <a href="" class="logo logo--theme-dark link">
+      <span class="logo__element ">Web</span>Studio</a>
 
-        
-        <div class="join">
-  <p class="join__title">
-    приєднуйтесь
-  </p>
-  <ul class="join-list list">
-    <li><a href="" class="join-list__link">
-      <svg class="join-list__icon "> <use href="./images/images-studio/sprite.svg#icon-instagram">
+    <address class="address">
+      <ul class="address__list list">
+        <li class="address__item">
+          <a href="" class="address__link link">
+            м. Київ, пр-т Лесі Українки, 26</a
+          >
+        </li >
+        <li class="address__item">
+          <a href="mailto:info@devstudio.com" class="address__link address__link--active link"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a href="tel:380961111111" class="address__link address__link--active link"
+            >+38 096 111 11 11</a
+          >
+        </li>
+      </ul>
+    </address>
+  </div>
 
-      </use></svg>
-    </a></li>
-    <li><a href="" class="join-list__link">
-      <svg class="join-list__icon "> <use href="./images/images-studio/sprite.svg#icon-twitter">
+  
+  <div class="join">
+<p class="join__title">
+приєднуйтесь
+</p>
+<ul class="join-list list">
+<li><a href="" class="join-list__link">
+<svg class="join-list__icon "> <use href="./images/images-studio/sprite.svg#icon-instagram">
 
-      </use></svg>
-    </a></li>
-    <li ><a href="" class="join-list__link">
-      <svg class="join-list__icon "> <use href="./images/images-studio/sprite.svg#icon-facebook">
+</use></svg>
+</a></li>
+<li><a href="" class="join-list__link">
+<svg class="join-list__icon "> <use href="./images/images-studio/sprite.svg#icon-twitter">
 
-      </use></svg>
-    </a></li>
-    <li ><a href="" class="join-list__link">
-      <svg class="join-list__icon "> <use href="./images/images-studio/sprite.svg#icon-linkedin">
+</use></svg>
+</a></li>
+<li ><a href="" class="join-list__link">
+<svg class="join-list__icon "> <use href="./images/images-studio/sprite.svg#icon-facebook">
 
-      </use></svg>
-    </a></li>
-  </ul>
-       </div>
+</use></svg>
+</a></li>
+<li ><a href="" class="join-list__link">
+<svg class="join-list__icon "> <use href="./images/images-studio/sprite.svg#icon-linkedin">
+
+</use></svg>
+</a></li>
+</ul>
+
+ </div>
+</div>
+
           
-
-        <!-- SIGNUP-FORM -->
+<!-- 
+     SIGNUP-FORM  -->
 
 
        <form class="signup-form">
@@ -508,10 +534,10 @@
 
       </div>
      
-    </footer>
+    </footer> 
 
 
-<div class="backdrop is-hidden" data-modal>
+<!-- <div class="backdrop is-hidden" data-modal>
   <div class="modal">
     <button type="button" class="modal__btn" data-modal-close>
       <svg  class="modal__close-icon" width="18" height="18">
@@ -586,7 +612,7 @@
 </form>
 
   </div>
-</div>
+</div> -->
 
 
     <script src="./js/modal.js"></script>
