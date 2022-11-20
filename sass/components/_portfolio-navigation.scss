@@ -1,7 +1,13 @@
 .portfolio-navigation__list {
     display: flex;
     justify-content: center;
-    margin-bottom: 34px;
+    margin-bottom: 30px;
+
+    @media screen and (max-width:480px) {
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      margin-bottom: 40px;
+    }
   }
   .portfolio-navigation__item {
     margin-right: 8px;
@@ -13,6 +19,10 @@
 
     &:last-child{
         margin-right: 0;
+    }
+
+    @media screen and (max-width:480px) {
+      margin-bottom: 15px;
     }
   }
 
