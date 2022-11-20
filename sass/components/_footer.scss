@@ -5,11 +5,30 @@
   }
   
   .footer__flex {
-    // display: flex;
-    // align-items: baseline;
+
+    @media screen and (min-width:1200px) {
+      display: flex;
+     align-items: baseline;
+    }
+    
   }
   
-  
+  .footer__flex-pos{
+   
+
+    @media screen and (min-width:768px) and (max-width:1200px) {
+      justify-content: space-between;
+    align-items: baseline;
+      text-align: center;
+      margin-bottom: 60px;
+      display: flex;
+    }
+    @media screen and (min-width:1200px) {
+    align-items: baseline;
+    display: flex;
+      
+    }
+  }
   
   .logo--theme-dark {
     color: $white-color;
@@ -25,23 +44,19 @@
   }
   
   .footer__adress-wrap {
-    // margin-right: 70px;
     @media screen and (max-width:480px) {
       text-align: center;
       margin-bottom: 60px;
     }
+    
+    @media screen and (min-width:1200px) {
+      margin-right: 70px;
+      
+    }
 
   }
   
-  .footer__tablet-position{
-    @media screen and (min-width:768px) {
-      display: flex;
-      justify-content: space-around;
-      align-items: baseline;
-      text-align: center;
-      margin-bottom: 60px;
-    }
-  }
+ 
   
   .address__list {
     line-height: 1.7;

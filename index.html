@@ -71,7 +71,7 @@
 
     <main>
 
-      <!-- <section class="hero">
+      <section class="hero">
         <div class="hero__flex container">
           <h1 class="hero__title">Ефективні рішення для <br> вашого бізнесу</h1>
 
@@ -80,7 +80,7 @@
           
        
         
-      </section> -->
+      </section>
 
 
 <!-- FEATURES -->
@@ -150,20 +150,29 @@
        
       </section>
 
-      <!-- WORK -->
+      <!-- WORK  -->
 
-      <!-- <section class="work-specification  section">
+      <section class="work-specification  section">
         <div class="container">
           <h2 class="work-specification__title">Чим ми займаємося</h2>
 
         <ul class="work-specification__list list">
           <li class="work-specification__item">
             <div class="work-specification__overlay">
-              <img class="work-specification__img"
-              src="./images/images-studio/box1.jpg"
-              alt="Людина, що працює на планшеті"
-              width="370"
-            />
+
+<picture>
+  <source srcset="./images/images-studio/box1.jpg 1x, ./images/images-studio/box1@2x.jpg 2x" media="(min-width:1200px)">
+  <img class="work-specification__img"
+  src="./images/images-studio/box1.jpg"
+  alt="Людина, що працює на планшеті"
+  width="370"
+/>
+</picture>
+
+
+
+
+           
            <span class="work-specification__field">Десктопні додатки</span>
             </div>
             
@@ -171,11 +180,19 @@
 
           <li class="work-specification__item">
             <div class="work-specification__overlay">
-              <img class="work-specification__img"
-              src="./images/images-studio/box2.jpg"
-              alt="Людина, яка тримає телефон перед ноутбуком"
-              width="370"
-            />
+
+
+              <picture>
+                <source srcset="./images/images-studio/box2.jpg 1x, ./images/images-studio/box2@2x.jpg 2x" media="(min-width:1200px)">
+                <img class="work-specification__img"
+                src="./images/images-studio/box2.jpg"
+                alt="Людина, яка тримає телефон перед ноутбуком"
+                width="370"
+              />
+              </picture>
+
+
+            
             <span class="work-specification__field">Мобільні додатки</span>
             </div>
             
@@ -183,17 +200,26 @@
 
           <li class="work-specification__item">
             <div class="work-specification__overlay">
-              <img class="work-specification__img"
-              src="./images/images-studio/box3.jpg"
-              alt="Людина, яка тримає планшет з палітрою"
-              width="370"
-            />
+
+              <picture>
+                <source srcset="./images/images-studio/box3.jpg 1x, ./images/images-studio/box3@2x.jpg 2x" media="(min-width:1200px)">
+                <img class="work-specification__img"
+                src="./images/images-studio/box3.jpg"
+                alt="Людина, яка тримає планшет з палітрою"
+                width="370"
+              />
+              </picture>
+
+
+
+
+          
             <span class="work-specification__field">Дизайнерські рішення</span>
             </div>
           </li>
         </ul>
         </div>
-      </section> -->
+      </section>
 
 
 
@@ -453,62 +479,69 @@
     <footer class="footer ">
       <div class="footer__flex container ">
 
-<div class="footer__tablet-position">
-  <div class="footer__adress-wrap">
-    <a href="" class="logo logo--theme-dark link">
-      <span class="logo__element ">Web</span>Studio</a>
+        <div class="footer__flex-pos">
 
-    <address class="address">
-      <ul class="address__list list">
-        <li class="address__item">
-          <a href="" class="address__link link">
-            м. Київ, пр-т Лесі Українки, 26</a
-          >
-        </li >
-        <li class="address__item">
-          <a href="mailto:info@devstudio.com" class="address__link address__link--active link"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a href="tel:380961111111" class="address__link address__link--active link"
-            >+38 096 111 11 11</a
-          >
-        </li>
-      </ul>
-    </address>
-  </div>
 
-  
-  <div class="join">
-<p class="join__title">
-приєднуйтесь
-</p>
-<ul class="join-list list">
-<li><a href="" class="join-list__link">
-<svg class="join-list__icon "> <use href="./images/images-studio/sprite.svg#icon-instagram">
+          <div class="footer__adress-wrap">
+            <a href="" class="logo logo--theme-dark link">
+              <span class="logo__element ">Web</span>Studio</a>
+        
+            <address class="address">
+              <ul class="address__list list">
+                <li class="address__item">
+                  <a href="" class="address__link link">
+                    м. Київ, пр-т Лесі Українки, 26</a
+                  >
+                </li >
+                <li class="address__item">
+                  <a href="mailto:info@devstudio.com" class="address__link address__link--active link"
+                    >info@devstudio.com</a
+                  >
+                </li>
+                <li>
+                  <a href="tel:380961111111" class="address__link address__link--active link"
+                    >+38 096 111 11 11</a
+                  >
+                </li>
+              </ul>
+            </address>
+          </div>
+        
+          
+          <div class="join">
+        <p class="join__title">
+        приєднуйтесь
+        </p>
+        <ul class="join-list list">
+        <li><a href="" class="join-list__link">
+        <svg class="join-list__icon "> <use href="./images/images-studio/sprite.svg#icon-instagram">
+        
+        </use></svg>
+        </a></li>
+        <li><a href="" class="join-list__link">
+        <svg class="join-list__icon "> <use href="./images/images-studio/sprite.svg#icon-twitter">
+        
+        </use></svg>
+        </a></li>
+        <li ><a href="" class="join-list__link">
+        <svg class="join-list__icon "> <use href="./images/images-studio/sprite.svg#icon-facebook">
+        
+        </use></svg>
+        </a></li>
+        <li ><a href="" class="join-list__link">
+        <svg class="join-list__icon "> <use href="./images/images-studio/sprite.svg#icon-linkedin">
+        
+        </use></svg>
+        </a></li>
+        </ul>
+        
+         
+        </div>
 
-</use></svg>
-</a></li>
-<li><a href="" class="join-list__link">
-<svg class="join-list__icon "> <use href="./images/images-studio/sprite.svg#icon-twitter">
 
-</use></svg>
-</a></li>
-<li ><a href="" class="join-list__link">
-<svg class="join-list__icon "> <use href="./images/images-studio/sprite.svg#icon-facebook">
+        </div>
 
-</use></svg>
-</a></li>
-<li ><a href="" class="join-list__link">
-<svg class="join-list__icon "> <use href="./images/images-studio/sprite.svg#icon-linkedin">
 
-</use></svg>
-</a></li>
-</ul>
-
- </div>
-</div>
 
           
 <!-- 
