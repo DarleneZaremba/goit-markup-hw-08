@@ -254,7 +254,7 @@ img {
   position: absolute;
   top: 10px;
   right: 10px;
-  z-index: 2;
+  z-index: 99;
 }
 @media screen and (min-width: 481px) {
   .page-header__nav-btn {
@@ -1170,7 +1170,11 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding-left: 28px;
+  padding-right: 28px;
   cursor: pointer;
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -1205,6 +1209,11 @@ img {
   transition: opacity 500ms cubic-bezier(0.4, 0, 0.2, 1);
   overflow-y: scroll;
 }
+@media screen and (max-width: 1199px) {
+  .backdrop {
+    padding: 93px 15px 94px 15px;
+  }
+}
 
 .backdrop.is-hidden {
   opacity: 0;
@@ -1219,14 +1228,7 @@ img {
   border-radius: 4px;
   width: 450px;
   height: 609px;
-  z-index: 999;
-}
-@media screen and (max-width: 480px) {
-  .modal {
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-top: 95px;
-  }
+  z-index: 99;
 }
 @media screen and (min-width: 768px) {
   .modal {
@@ -1428,17 +1430,28 @@ img {
 }
 
 .checkbox__policy {
-  font-size: 14px;
-  line-height: 1.7142857143;
+  font-size: 12px;
+  line-height: 1.1666666667;
   letter-spacing: 0.03em;
-  color: #757575;
+}
+@media screen and (min-width: 1200px) {
+  .checkbox__policy {
+    font-size: 14px;
+    line-height: 1.7142857143;
+  }
 }
 
 .checkbox__policy-link {
-  font-size: 14px;
-  line-height: 1.7142857143;
+  font-size: 12px;
+  line-height: 1.1666666667;
   letter-spacing: 0.03em;
   color: #2196f3;
+}
+@media screen and (min-width: 1200px) {
+  .checkbox__policy-link {
+    font-size: 14px;
+    line-height: 1.7142857143;
+  }
 }
 
 .signup-form__submit-btn {

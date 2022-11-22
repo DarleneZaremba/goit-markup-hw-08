@@ -234,7 +234,9 @@
   color: $white-color;
   display: flex;
   align-items: center;
+  justify-content: center;
   padding-left: 28px;
+  padding-right: 28px;
   cursor: pointer;
   
   transition: background-color 250ms $time-function;
