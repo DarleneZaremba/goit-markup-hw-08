@@ -1,264 +1,216 @@
 .footer {
-    background-color: #2f303a;
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
-  
-  .footer__flex {
+  background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 
-    @media screen and (min-width:1200px) {
-      display: flex;
-     align-items: baseline;
-    }
-    
-  }
-  
-  .footer__flex-pos{
-   
-
-    @media screen and (min-width:768px) and (max-width:1200px) {
-      justify-content: space-between;
+.footer__flex {
+  @media screen and (min-width: 1200px) {
+    display: flex;
     align-items: baseline;
-      text-align: center;
-      margin-bottom: 60px;
-      display: flex;
-    }
-    @media screen and (min-width:1200px) {
+  }
+}
+
+.footer__flex-pos {
+  @media screen and (min-width: 768px) and (max-width: 1200px) {
+    justify-content: space-between;
+    align-items: baseline;
+    text-align: center;
+    margin-bottom: 60px;
+    display: flex;
+  }
+  @media screen and (min-width: 1200px) {
     align-items: baseline;
     display: flex;
-      
-    }
   }
-  
-  .logo--theme-dark {
-    color: $white-color;
-    margin-bottom: 20px;
-    display: block;
-    padding-top: 0;
-    padding-bottom: 0;
+}
 
-    @media screen and (max-width:480px) {
-      
-      text-align: center;
-    }
-  }
-  
-  .footer__adress-wrap {
-    @media screen and (max-width:480px) {
-      text-align: center;
-      margin-bottom: 60px;
-    }
-    
-    @media screen and (min-width:1200px) {
-      margin-right: 70px;
-      
-    }
+.logo--theme-dark {
+  color: $white-color;
+  margin-bottom: 20px;
+  display: block;
+  padding-top: 0;
+  padding-bottom: 0;
 
+  @media screen and (max-width: 480px) {
+    text-align: center;
   }
-  
- 
-  
-  .address__list {
-    line-height: 1.7;
-    letter-spacing: 0.03em;
-    font-style: normal;
- 
-  }
-  .address__item {
-    margin-bottom: 9px;
-  }
-  
-  .address__link{
-    color: $white-color;
-  }
-  
-  .address__link--active:hover {
-    color: $accent-color;
-  }
-  
-  
-  /* Social media in footer */
-  
-  
-  .join__title {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.2;
-    color: $white-color;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-    letter-spacing: 0.03em;
+}
 
-    @media screen and (max-width:480px) {
-      text-align: center;
-    }
+.footer__adress-wrap {
+  @media screen and (max-width: 480px) {
+    text-align: center;
+    margin-bottom: 60px;
+  }
 
+  @media screen and (min-width: 1200px) {
+    margin-right: 70px;
   }
-  
-  
-  
-  .join-list {
-    display: flex;
-   
-    @media screen and(max-width:480px) {
-      justify-content: center;
-      margin-bottom: 60px;
-    }
-  }
-  
-  .join-list__icon {
-    width: 20px;
-    height: 20px;
-    fill: $white-color;
-  }
-  
-  .join-list__link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #44454e;
-    border-radius: 50px;
-    width: 44px;
-    height: 44px;
-    margin-right: 10px;
-  
-    transition: background-color 250ms $time-function;
+}
 
-    &:hover{
-        background-color: $accent-color;
-    }
-  }
- 
-  
-  /* SIGN-UP FORM */
-  
-  
-  .signup-form{
-  
-    @media screen and (max-width:480px) {
-    
-       }
+.address__list {
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  font-style: normal;
+}
+.address__item {
+  margin-bottom: 9px;
+}
 
-       @media screen and (min-width:768px) {
-       
-       }
+.address__link {
+  color: $white-color;
+}
 
-       @media screen and (min-width:1199px) {
-      
-        margin-left: 93px;
-      }
-  }
-  
-  
-  .signup-form__title{
-  
+.address__link--active:hover {
+  color: $accent-color;
+}
+
+/* Social media in footer */
+
+.join__title {
   font-weight: 700;
   font-size: 14px;
-  line-height:calc(16 / 14);
+  line-height: 1.2;
+  color: $white-color;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  letter-spacing: 0.03em;
+
+  @media screen and (max-width: 480px) {
+    text-align: center;
+  }
+}
+
+.join-list {
+  display: flex;
+
+  @media screen and(max-width:480px) {
+    justify-content: center;
+    margin-bottom: 60px;
+  }
+}
+
+.join-list__icon {
+  width: 20px;
+  height: 20px;
+  fill: $white-color;
+}
+
+.join-list__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #44454e;
+  border-radius: 50px;
+  width: 44px;
+  height: 44px;
+  margin-right: 10px;
+
+  transition: background-color 250ms $time-function;
+
+  &:hover {
+    background-color: $accent-color;
+  }
+}
+
+/* SIGN-UP FORM */
+
+.signup-form {
+  @media screen and (max-width: 480px) {
+  }
+
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1199px) {
+    margin-left: 93px;
+  }
+}
+
+.signup-form__title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: $white-color;
   margin-bottom: 20px;
 
-
-  @media screen and (max-width:1199px) {
+  @media screen and (max-width: 1199px) {
     text-align: center;
   }
+}
+
+.signup-form__wrap {
+  @media screen and (max-width: 1199px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
-  
-  .signup-form__wrap{
-    
-    @media screen and (max-width:1199px) {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      
-    }
-    
-    @media screen and (min-width:1200px) {
-      display: flex;
-      width: 570px;
-      
-      height: 50px;
-      justify-content: space-between;
-      align-items: center;
-    }
- 
-    
+
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    width: 570px;
+
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
   }
-  
-  .signup-form__input{
-    background-color: #2f303a;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-    border-radius: 4px;
-    padding-left: 16px;
-    color: $white-color;
-    font-size: 14px;
-    line-height:calc(16 / 14);
-    letter-spacing: 0.03em;
-    outline: transparent;
-    
-    @media screen and (max-width:480px) {
-      max-width: 100%;
-    }
-    @media screen and (max-width:1199px) {
-      height: 50px;
-      margin-bottom: 20px;
-      width: 450px;
-    }
-  
+}
 
-    @media screen and (min-width:1200px) {
-      height: 100%;
-      width: 358px;
-    }
-   
-   
-
-
-  }
-  
-  
-  .signup-form__btn{
-
-
-  max-width: 200px;
-  background-color: $accent-color;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+.signup-form__input {
+  background-color: #2f303a;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
-  border: transparent;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: calc(30 / 16);
+  padding-left: 16px;
   color: $white-color;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  outline: transparent;
+
+  @media screen and (max-width: 480px) {
+    max-width: 100%;
+  }
+  @media screen and (max-width: 1199px) {
+    height: 50px;
+    margin-bottom: 20px;
+    width: 450px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    height: 100%;
+    width: 358px;
+  }
+}
+
+.signup-form__btn {
+  @extend .btn;
+  max-width: 200px;
+  // background-color: $accent-color;
+  // box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  // border-radius: 4px;
+  // border: transparent;
+  // font-weight: 700;
+  // font-size: 16px;
+  // line-height: calc(30 / 16);
+  // color: $white-color;
   display: flex;
   align-items: center;
   justify-content: center;
   padding-left: 28px;
   padding-right: 28px;
-  cursor: pointer;
-  
-  transition: background-color 250ms $time-function;
-
-  &:hover, &:focus {
-    background-color:#188ce8 ;
-  }
 
   @media screen and(max-width:1199px) {
     height: 50px;
-  
   }
 
-  @media screen and (min-width:1200px) {
+  @media screen and (min-width: 1200px) {
     height: 100%;
   }
-  }
+}
 
-  
-  .signup-form__icon{
-    margin-left: 10px;
-  }
-  
-  
-  
+.signup-form__icon {
+  margin-left: 10px;
+}
